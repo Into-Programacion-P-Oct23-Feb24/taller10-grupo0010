@@ -38,7 +38,8 @@ public class Problema01 {
         }
        
         for (int f = 0; f < notas.length; f++) {
-            System.out.printf("Estudiante: %s tiene un promedio de %.2f\n", estudent[f], promedio[f]);
+            System.out.printf("Estudiante: %s tiene un promedio de %.2f\n"
+                    , estudent[f], promedio[f]);
         }
 
     }
